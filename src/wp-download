@@ -1,0 +1,4 @@
+here is link to download and unzip wordpress folder/file.
+wget https://wordpress.org/latest.zip
+sudo apt install unzip
+unzip latest.zip
