@@ -8,7 +8,6 @@ sudo usermod -aG docker $USER
 #Install docker-compose
 sudo ap-get update -y
 sudo apt-get install docker-compose -y
-
 #Install Jenkins
 #Jenkins requires Java to run, so first install Java -->
 sudo apt-get update -y
