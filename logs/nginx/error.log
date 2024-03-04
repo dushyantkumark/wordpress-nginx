@@ -1,0 +1,11 @@
+2024/03/04 17:55:18 [warn] 1#1: server name "/var/log/nginx/error.log" has suspicious symbols in /etc/nginx/conf.d/default.conf:7
+2024/03/04 17:55:18 [notice] 1#1: using the "epoll" event method
+2024/03/04 17:55:18 [notice] 1#1: nginx/1.23.4
+2024/03/04 17:55:18 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2024/03/04 17:55:18 [notice] 1#1: OS: Linux 6.2.0-1018-aws
+2024/03/04 17:55:18 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/03/04 17:55:18 [notice] 1#1: start worker processes
+2024/03/04 17:55:18 [notice] 1#1: start worker process 28
+2024/03/04 17:55:18 [notice] 1#1: start worker process 29
+2024/03/04 17:56:07 [error] 28#28: *8 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 60.254.108.197, server: awsdevops.online, request: "GET /favicon.ico HTTP/1.1", host: "43.205.115.136", referrer: "http://43.205.115.136/wp-admin/setup-config.php"
+2024/03/04 17:57:01 [error] 28#28: *16 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 103.25.129.248, server: awsdevops.online, request: "GET /favicon.ico HTTP/1.1", host: "43.205.115.136", referrer: "http://43.205.115.136/wp-admin/setup-config.php"
