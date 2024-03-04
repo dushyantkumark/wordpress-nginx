@@ -23,7 +23,7 @@ pipeline{
         stage('Git Checkout') {
             steps {
                 echo 'Cloning Code from git branch'
-                git branch: 'main', url: 'https://github.com/dushyantkumark/wordpress-nginx.git'
+                git branch: 'main', url: 'enter-your-repo-url'
             }
         }
         stage('ECR Login') {
